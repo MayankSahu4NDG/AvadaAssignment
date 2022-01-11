@@ -1,0 +1,125 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #0c2f55;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'montserrat';
+}
+
+
+/*==========================================*/
+.login-form {
+        min-width: 340px;
+        margin: 20px;
+    }
+    .logIn {
+        margin: 10px;
+    }
+.dropdowns {
+    margin-left: 5%;
+}
+
+/*==========================================*/
+.heading {
+    color: black;
+    margin-top: 20px;
+}
+
+.ratingTag {
+    padding: 5px;
+    color: white;
+    background: green;
+}
+.verified {
+    padding: 5px;
+    color: white;
+    background: #1a3d63;
+    font-size: small ;
+}
+.serviceIcons, .fa-tags, .icons {
+    color: #008000;
+}
+
+
+/*=============================================*/
+#purchase {
+  -webkit-appearance: none;
+  background: -webkit-gradient (to right, #ee786e 0%, #fceeb5 50%, #a2ccb6 100%);
+  background: linear-gradient(to right, #ee786e 0%, #fceeb5 50%, #a2ccb6 100%);
+  background-size: 500%;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  color: #fff;
+  cursor: pointer;
+  font: 1.5em Raleway, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 70px;
+  letter-spacing: 0.05em;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+#purchase:hover {
+  animation-name: gradient;
+  -webkit-animation-name: gradient;
+  animation-duration: 2s;
+  -webkit-animation-duration: s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* ========================================= */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #4ac48bd2;
+  color: #444;
+  cursor: pointer;
+  padding: 13px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 15px 18px;
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
